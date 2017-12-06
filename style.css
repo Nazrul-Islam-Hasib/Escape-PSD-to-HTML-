@@ -1,0 +1,324 @@
+@font-face{
+	src: url(fonts/brandon-grotesque-medium.ttf);
+	font-family: 'Brandon-Grotesque-Medium';
+	src: url(fonts/brandon-grotesque-bold.ttf);
+	font-family: 'Brandon-Grotesque-Bold';
+	src: url(fonts/brandon-grotesque-light.ttf);
+	font-family: 'Brandon-Grotesque-Light';
+	src: url(fonts/brandon-grotesque-regular.ttf);
+	font-family: 'Brandon-Grotesque-Regular';
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.header-menu-area{
+	background: url(images/Escape.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1000px;
+}
+.menu-icon{
+	color: white;
+	font-size: 30px;
+	padding-left: 95px;
+	padding-top: 45px;
+}
+.menu-heading{
+	float: right;
+	padding-top: 46px;
+	padding-right: 320px;
+	color: white;
+}
+.menu{
+	
+}
+.menu ul{
+	display: flex;
+	list-style: none;
+}
+.menu ul li{
+
+}
+.menu ul li a{
+	display: block;
+	padding: 60px 20px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: 'Brandon-Grotesque-Medium';
+}
+.menu-title{
+	text-align: center;
+	color: white;
+	padding-top: 80px;
+}
+.menu-title h3{
+    font-family: 'Brandon-Grotesque-Light';
+    font-size: 20px;
+}
+.menu-title h2{
+    font-family: 'Brandon-Grotesque-Bold';
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+.menu-title a{
+	font-family: 'Brandon-Grotesque-Bold';
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	padding: 10px 30px;
+}
+
+/*menu ends*/
+
+/*content area starts*/
+
+.content-area{
+	padding-top: 300px;
+}
+/*web development area starts*/
+
+.web-dev-content h2{
+    font-family: 'Brandon-Grotesque-Light';
+    font-size: 40px;
+}
+.web-dev-content h2 span{
+   font-family: 'Brandon-Grotesque-Bold';
+   font-weight: bold;
+}
+.web-dev-content p{
+	padding-top: 30px;
+	font-family: 'Brandon-Grotesque-Regular';
+	text-align: justify;
+}
+.web-dev-logo{
+   padding-left: 30px;
+}
+/*web development area ends*/
+/*identity area starts*/
+
+.content-area2{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #FAFAFA;
+}
+.branding-content h2{
+    font-family: 'Brandon-Grotesque-Light';
+    font-size: 40px;
+}
+.branding-content h2 span{
+   font-family: 'Brandon-Grotesque-Bold';
+   font-weight: bold;
+}
+.branding-content p{
+	padding-top: 30px;
+	font-family: 'Brandon-Grotesque-Regular';
+	text-align: justify;
+}
+/*identity area ends*/
+/*skill-client area starts*/
+
+.skill-area{
+	background-color: white;
+	height: 600px;
+	padding-top: 70px;
+}
+.skill-icon{
+	width: 70px;
+	height: 70px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 45px;
+}
+.skill-icon i{
+	color: white;
+	font-size: 25px;
+}
+.skill-icon-text{
+	float: left;
+}
+.skill-icon-text h3{
+	font-family: 'Brandon-Grotesque-Medium';
+}
+.skill-icon-text p{
+	font-family: 'Brandon-Grotesque-Regular';
+}
+/*skill-area ends*/
+/*client-area starts*/
+
+.client-area{
+	background-color: #FAFAFA;
+	height: 600px;
+}
+.client-area-text{
+    text-align: center;
+    padding-top: 50px;
+}
+.client-area-text h2{
+	font-family: 'Brandon-Grotesque-Bold';
+	font-size: 40px;
+}
+.client-area-text p{
+	font-family: 'Brandon-Grotesque-Regular';
+	font-size: 25px;
+}
+.client-img1{
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100px;
+	overflow: hidden;
+	float: right;
+	margin-bottom: 50px;
+}
+.client-img2{
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100px;
+	overflow: hidden;
+	float: left;
+}
+
+.speakbox1{
+	background: url(images/speakbox.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left; 
+	height: 160px;
+	margin-bottom: 50px;
+}
+.client-talk1{
+    padding-left: 30px;
+    font-family: 'Brandon-Grotesque-Regular';
+}
+.client-talk1 span{
+	color: #879DCB;
+}
+.speakbox2{
+	background: url(images/speakbox1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left; 
+	height: 160px;
+}
+.client-talk2{
+    padding-right: 30px;
+    font-family: 'Brandon-Grotesque-Regular';
+}
+.client-talk2 span{
+	color: #879DCB;
+}
+.client-area-sponser{
+	height: 200px;
+	padding-top: 70px;
+}
+/*client-area ends*/
+/*member-area starts*/
+.member-area{
+    background-color: #111111;
+    height: 600px;
+}
+.member-area-title{
+	text-align: center;
+	color: white;
+	padding-bottom: 50px;
+}
+.member-area-title h2{
+    font-family: 'Brandon-Grotesque-Regular';
+}
+.member-area-title h2 span{
+    font-family: 'Brandon-Grotesque-Bold';
+}
+.member-area-title p{
+	font-family: 'Brandon-Grotesque-Regular';
+}
+.member-img{
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100px;
+	overflow: hidden;
+}
+.member-img img{
+	
+}
+.member-name{
+	text-align: left;
+	color: white;
+}
+.member-position{
+	text-align: left;
+	padding-left: 50px;
+	color: white;
+}
+.icon{
+	padding-left: 70px
+}
+.icon .member-icon+.member-icon{
+	padding-left: 
+}
+.member-icon{
+	width: 30px;
+	height: 30px;
+	border: 2px solid white;
+	border-radius: 70px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icon-title{
+	padding-top: 50px;
+	text-align: center;
+	color: white;
+}
+/*member-area ends*/
+/*contact-area starts*/
+.contact-area{
+	height: 600px;
+	background-color: #7690C5;
+	padding-top: 70px;
+	color: white;
+}
+.contact-left h2{
+	font-family: 'Brandon-Grotesque-Regular';
+}
+.contact-left h2 span{
+	font-family: 'Brandon-Grotesque-Bold';
+}
+.contact-right{
+	padding-top: 30px;
+}
+.contact-right div{
+	padding-bottom: 50px;
+}
+.input-holder{
+	display: block;
+	height: 50px;
+	width: 390px;
+	padding-left: 20px;
+}
+.contact-right textarea{
+	padding-left: 20px;
+}
+.last-line{
+	text-align: center;
+	font-family: 'Brandon-Grotesque-Medium';
+	color: white;
+	margin-top: 50px;
+	border-top: 1px solid #87A0D2;
+}
+.last-line p{
+	padding-top: 30px;
+}
